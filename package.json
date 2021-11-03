@@ -1,0 +1,24 @@
+{
+  "name": "drawring-utils",
+  "version": "0.0.1",
+  "description": "Functions to assist in creating SVG files with React",
+  "main": "lib/index.js",
+  "types": "/ib/index.d.ts",
+  "repository": "git://github.com/dopplerreflect/drawring-utils.git",
+  "author": "David Rose",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/jest": "^27.0.2",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --watchAll"
+  }
+}

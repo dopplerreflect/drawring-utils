@@ -28,10 +28,10 @@ export const radialPoint = (
 ): Point => ({
   x:
     (options?.center ? options.center.x : 0) +
-    radius * Math.cos(angle * (options?.degrees ? Math.PI / 180 : 1)),
+    radius * Math.cos(options?.degrees ? ator(angle) : angle),
   y:
     (options?.center ? options.center.y : 0) +
-    radius * Math.sin(angle * (options?.degrees ? Math.PI / 180 : 1)),
+    radius * Math.sin(options?.degrees ? ator(angle) : angle),
 });
 
 /**

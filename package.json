@@ -1,6 +1,6 @@
 {
   "name": "@dopplerreflect/drawring-utils",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Functions to assist in creating SVG files with React",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
